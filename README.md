@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+[# Personal Portfolio Website
 
-A simple and clean portfolio website built using HTML and CSS.
+A simple and cleamn portfolio website built using HTML and CSS.
 
 ## Features
 - Responsive design
@@ -11,4 +11,4 @@ A simple and clean portfolio website built using HTML and CSS.
 - HTML
 - CSS
 - JavaScript (for future updates)
-
+](https://github.com/milana-nayak/portfolio)
