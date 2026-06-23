@@ -136,25 +136,30 @@ section h2{
    PROJECTS
 ========================== */
 .project{
-    border:1px solid #ddd;
-    border-radius:10px;
-    padding:20px;
-    margin-bottom:25px;
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    margin-bottom:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
     transition:.3s;
 }
 
 .project:hover{
-    transform:translateY(-5px);
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
 }
 
 .project h3{
-    color:#1e3a8a;
+    color:#2563eb;
+    margin-bottom:12px;
+}
+
+.project p{
     margin-bottom:15px;
 }
 
-.project a{
-    text-decoration:none;
+.project button{
+    margin-right:10px;
 }
 
 /* ==========================
