@@ -112,24 +112,37 @@ section h2{
 /* ==========================
    SKILLS
 ========================== */
-#skills ul{
+/* ==========================
+   SKILLS
+========================== */
+
+.skills-category{
+    margin-bottom:30px;
+}
+
+.skills-category h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.skills-list{
     display:flex;
     flex-wrap:wrap;
     gap:15px;
-    list-style:none;
 }
 
-#skills li{
+.skills-list span{
     background:#2563eb;
     color:white;
-    padding:10px 20px;
+    padding:10px 18px;
     border-radius:30px;
+    font-weight:bold;
     transition:.3s;
 }
 
-#skills li:hover{
-    background:#1e40af;
-    transform:scale(1.05);
+.skills-list span:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
 }
 
 /* ==========================
